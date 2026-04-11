@@ -125,7 +125,7 @@ streamlit run app.py
 
 ## 📸 Demo Screenshots
 
-> Add your screenshots here to showcase the UI and functionality
+
 
 ### 🖥️ Chat Interface
 
