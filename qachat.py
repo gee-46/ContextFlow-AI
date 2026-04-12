@@ -20,3 +20,5 @@ def get_gemini_response(question):
 st.set_page_config(page_title="Q&A Demo")
 
 st.header("Gemini LLM Application")
+
+# Initialize session state for chat history if it doesn't exist
