@@ -18,3 +18,5 @@ def get_gemini_response(question):
 ##initialize our streamlit app
 
 st.set_page_config(page_title="Q&A Demo")
+
+st.header("Gemini LLM Application")
