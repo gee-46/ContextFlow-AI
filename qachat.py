@@ -27,3 +27,7 @@ st.session_state['chat_history'] = []
 
 input=st.text_input("Input: ",key="input")
 submit=st.button("Ask the question")
+
+if submit and input:
+    response=get_gemini_response(input)
+    # Add user query and response to session state chat history
