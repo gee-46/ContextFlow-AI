@@ -23,3 +23,7 @@ st.header("Gemini LLM Application")
 
 # Initialize session state for chat history if it doesn't exist
 if 'chat_history' not in st.session_state:
+st.session_state['chat_history'] = []
+
+input=st.text_input("Input: ",key="input")
+submit=st.button("Ask the question")
