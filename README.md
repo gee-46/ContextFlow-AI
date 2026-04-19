@@ -103,15 +103,7 @@ Create a `.env` file in the root directory:
 GOOGLE_API_KEY=your_api_key_here
 ```
 
----
 
-## ▶️ Run the Application
-
-```bash
-streamlit run app.py
-```
-
----
 
 ## 🧩 How It Works
 
